@@ -14,32 +14,34 @@ API ( Application Programming Interface ) is a set of routines, protocols and to
 ### API Examples
 
 - API in Unix System
-      SYNOPSIS
-                  #include <math.h>
-                  double sqrt(double X);
-                  float  sqrtf(float X);
-      DESCRIPTION
-             sqrt computes the positive square root of the argument. ...
-      RETURNS
-             On success, the square root is returned. If X is real and positive...
+
+          SYNOPSIS
+                      #include <math.h>
+                      double sqrt(double X);
+                      float  sqrtf(float X);
+          DESCRIPTION
+                 sqrt computes the positive square root of the argument. ...
+          RETURNS
+                 On success, the square root is returned. If X is real and positive...
+
 
 - API in Java programming language
 
-      class Scanner
-
-      public String nextLine()
-
-        Advances this scanner past the current line and returns the skipped input...
-
-      Returns:
-
-        the line that was skipped
-
-      Throws:
-
-        NoSuchElementException - if no line found
-
-        IllegalStateException - if this scanner is closed        
+          class Scanner
+    
+          public String nextLine()
+    
+            Advances this scanner past the current line and returns the skipped input...
+    
+          Returns:
+    
+            the line that was skipped
+    
+          Throws:
+    
+            NoSuchElementException - if no line found
+    
+            IllegalStateException - if this scanner is closed        
 
 
 ## WEB-API
@@ -51,11 +53,14 @@ typically in the form of `JSON` or `XML`
 
 - Request
 
+
       GET /books/1
       Host: api.bookstore.com
       Accept: application/json
 
+
 - Response
+
 
       HTTP/1.1 200 OK
       Content-Type: application/json
@@ -67,6 +72,7 @@ typically in the form of `JSON` or `XML`
         "description" : "web api tutorial",
         "price" : 20
       }
+      
 
 ## RESTFUL-API
 

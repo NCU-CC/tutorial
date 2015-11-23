@@ -19,9 +19,11 @@ Data is not at server side but client side, so the data must be in requests
 ### From Request Examples
 - calculate values
   - request
+  
         GET /api/math/square?value=5
 
   - response
+  
         {
           "value" : 5,
           "square" : 25
@@ -29,9 +31,11 @@ Data is not at server side but client side, so the data must be in requests
 
 - random number
   - request
+  
         GET /api/math/random?type=int&min=0&max=10
 
   - response
+  
         {
           "random" : 6
         }
@@ -43,10 +47,12 @@ Data comes from the file system at server side
 ### From File Examples
 - file upload
   - request
+  
         POST /api/files
         [ your file data ]
 
   - response
+  
         200 OK
         {
           "id" : "ABC123"
