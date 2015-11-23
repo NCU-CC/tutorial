@@ -53,26 +53,31 @@ typically in the form of `JSON` or `XML`
 
 - Request
 
-
-      GET /books/1
-      Host: api.bookstore.com
-      Accept: application/json
-
+    ```
+    GET /books/1
+    Host: api.bookstore.com
+    Accept: application/json
+    ```
+      
 
 - Response
 
-
-      HTTP/1.1 200 OK
-      Content-Type: application/json
-      Content-Length: xxx
-
-      {
+    ```
+    HTTP/1.1 200 OK
+    Content-Type: application/json
+    Content-Length: xxx
+    ```
+    
+    
+    ```json
+    {
         "id" : "1",
         "name" : "make a web api in 3 mins",
         "description" : "web api tutorial",
         "price" : 20
-      }
-      
+    }
+    ```
+    
 
 ## RESTFUL-API
 

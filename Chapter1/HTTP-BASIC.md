@@ -130,7 +130,9 @@ Body is an optional message associated with the request or response
 
 ### Body Examples
 - plain
-      HelloWorld
+  ```
+  HelloWorld
+  ```
 
 - html
   ```html
@@ -198,7 +200,7 @@ status   | text       | description
 400      | bad request | invalid request data
 401      | unauthorized | authentication is required and has failed or has not yet been provided
 403      | forbidden | server is refusing to respond to it
-404      | not found | **required resource** could not be found
+404      | not found | **current required resource** could not be found
 405      | method not allowed | request method not supported by that resource
 
 #### 5xx

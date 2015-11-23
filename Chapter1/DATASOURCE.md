@@ -18,27 +18,35 @@ Data is not at server side but client side, so the data must be in requests
 
 ### From Request Examples
 - calculate values
-  - request
-  
+    - request
+    
+        ```
         GET /api/math/square?value=5
-
-  - response
-  
+        ```
+    
+    - response
+    
+        ```json
         {
           "value" : 5,
           "square" : 25
         }
+        ```
 
 - random number
-  - request
-  
+    - request
+    
+        ```
         GET /api/math/random?type=int&min=0&max=10
-
-  - response
-  
+        ```
+    
+    - response
+    
+        ```json
         {
           "random" : 6
         }
+        ```
 
 
 ## From-File
@@ -46,19 +54,25 @@ Data comes from the file system at server side
 
 ### From File Examples
 - file upload
-  - request
-  
+    - request
+    
+        ```
         POST /api/files
         [ your file data ]
-
-  - response
-  
-        200 OK
+        ```
+    
+    - response
+    
+        ```json
         {
-          "id" : "ABC123"
+        "id" : "ABC123"
         }
+        ```
+        
 
 - web page
+
+
   a simple web server which serve static html pages
 
 ## From-Database
