@@ -16,7 +16,7 @@ this section is talking about structure of http application
 
 HTTP ( Hyper Text Transfer Protocol ) is a protocol to request and response between client / server
 
-From the apllication's point of view :
+From the application's point of view :
 
 HTTP request contains fields of `METHOD`, `URL`, `HEADER`, `BODY`
 
@@ -81,7 +81,7 @@ This action indicates the purpose of this request.
 - DELETE `http://example.com/resources/1` : delete the resource #1
 
 ### Method List
-method   |  indempotent  | description
+method   |  idempotent   | description
 -----    |  ----------   | -----------
 GET      | O | read
 POST     | X | create
@@ -90,7 +90,7 @@ PATCH    | X | update
 DELETE   | O | delete
 HEAD     | O | read header only
 
-**indempotent** : if an operation returns same result even been executed for multiple times, then this is called indempotent
+**idempotent ** : if an operation returns same result even been executed for multiple times, then this is called idempotent 
 
 ### Method in Browser
 User doesn't see the http method when using browser is that the browser use `GET` when user click link or request any resource by default. The other methods can be triggered by javascript.
@@ -186,7 +186,7 @@ status   | text       | description
 -----    | ---------- | ----------  
 200      | ok | request success
 201      | created | request success and a new resource is created
-204      | no content | request sucess but returns no content
+204      | no content | request success but returns no content
 
 #### 3xx
 status   | text       | description  

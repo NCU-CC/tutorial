@@ -10,7 +10,7 @@ this section is talking about user / client authentication and authorization in 
 - [References](#References)
 
 ## Authentication
-Authentication is a series of procedure to varify the user identity
+Authentication is a series of procedure to verify the user identity
 
 ### Authentication Examples
 - a school authenticates students by student cards

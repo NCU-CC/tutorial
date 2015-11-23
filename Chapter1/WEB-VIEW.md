@@ -86,7 +86,7 @@ XML ( Extensible Markup Language  ) can represent a nested structure. HTML is fo
 
   ```xml
   <book>
-    <chapte>
+    <chapter>
       <name>first</name>
     </chapter>
   </book>

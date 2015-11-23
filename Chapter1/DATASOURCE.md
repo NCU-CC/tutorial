@@ -89,7 +89,7 @@ A database management system ( DBMS ) is a application that interacts with the u
   1. all user data is saved in database
   - a user tries to login to a website
   - the server connect to DBMS to read corresponding user data
-  - the server validates user certificate by data in databse
+  - the server validates user certificate by data in database
   - the server let user in if the data is matched
 
 ## From-Other-Services
