@@ -56,14 +56,15 @@ XML ( Extensible Markup Language  ) can represent a nested structure. HTML is fo
 
     `<?xml version="1.0" encoding="UTF-8"?>`
 
+
 - Tag : begins with **<** and ends with **>**
+
   - start-tags : `<section>`
   - end-tags : `</section>`
   - empty-element tags : `<section />`
 
-- Element :
 
-  a component which either
+- Element : a component which either
   - begins with a **start-tag** and ends with a matching **end-tag**
   ```xml
   <Greeting>
@@ -135,11 +136,11 @@ JSON（ JavaScript Object Notation ） can represent a nested structure and easy
 
   `true`
 
-- Array   : an ordered list, each of which may be of any type. Arrays use square bracket ( `[]` ) notation with elements being comma-separated ( `,` )
+- Array   : an **ordered list**, each of which may be of any type. Arrays use square bracket ( `[]` ) notation with elements being comma-separated ( `,` )
 
   `[ 1, 2, 3 ]` `[ "a", "b" ]`
 
-- Object  : unordered collection of key / value pairs where the **keys are strings**, delimited with curly brackets ( `{}` ) and use commas ( `,` ) to separate each pair
+- Object  : an **unordered collection** of key / value pairs where the **keys are strings**, delimited with curly brackets ( `{}` ) and use commas ( `,` ) to separate each pair
 
   ```json
   {

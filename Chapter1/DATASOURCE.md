@@ -10,7 +10,7 @@ this section is talking about where the data comes from in web services
 - [References](#References)
 
 ## Web-DataSource
-Data is very important in web service because we can't do anything without data!
+Data is very important in every application because we can't do anything without data!
 The following are some examples of data source.
 
 ## From-Request
@@ -19,13 +19,13 @@ Data is not at server side but client side, so the data must be in requests
 ### From Request Examples
 - calculate values
     - request
-    
+
         ```
-        GET /api/math/square?value=5
+        GET /api/math/square? value=5
         ```
-    
+
     - response
-    
+
         ```json
         {
           "value" : 5,
@@ -35,13 +35,13 @@ Data is not at server side but client side, so the data must be in requests
 
 - random number
     - request
-    
+
         ```
-        GET /api/math/random?type=int&min=0&max=10
+        GET /api/math/random? type=int & min=0 & max=10
         ```
-    
+
     - response
-    
+
         ```json
         {
           "random" : 6
@@ -55,23 +55,22 @@ Data comes from the file system at server side
 ### From File Examples
 - file upload
     - request
-    
+
         ```
         POST /api/files
         [ your file data ]
         ```
-    
+
     - response
-    
+
         ```json
         {
         "id" : "ABC123"
         }
         ```
-        
+
 
 - web page
-
 
   a simple web server which serve static html pages
 
@@ -83,6 +82,10 @@ A database is an organized collection of data
 
 ### What is DBMS
 A database management system ( DBMS ) is a application that interacts with the user, other applications, and the database itself to capture and analyze data
+
+<img src="https://upload.wikimedia.org/wikipedia/zh/thumb/6/62/MySQL.svg/320px-MySQL.svg.png" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/320px-SQLite370.svg.png" height="100">
+<img src="http://i.imgur.com/q3hm2jI.png" height="100">
 
 ### From Database Examples
 - user authentication

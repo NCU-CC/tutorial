@@ -16,6 +16,12 @@ this section is talking about structure of http application
 
 HTTP ( Hyper Text Transfer Protocol ) is a protocol to request and response between client / server
 
+`e.g., a browser requests the web page then the server returns it`
+
+![http](./images/http-00.jpg)
+
+
+
 From the application's point of view :
 
 HTTP request contains fields of `METHOD`, `URL`, `HEADER`, `BODY`
@@ -74,6 +80,9 @@ DNS stores key-value pairs of `domain name` and `ip` so that agent can ask DNS t
 Client must specify an action when request a resource.
 This action indicates the purpose of this request.
 
+![http-method](./images/http-method-00.jpg)
+![http-method](./images/http-method-01.jpg)
+
 ### Method Examples
 - POST `http://example.com/resources` : create a new resource with body
 - GET `http://example.com/resources/1` : get the resource #1
@@ -90,7 +99,7 @@ PATCH    | X | update
 DELETE   | O | delete
 HEAD     | O | read header only
 
-**idempotent ** : if an operation returns same result even been executed for multiple times, then this is called idempotent 
+**idempotent** : if an operation returns same result even been executed for multiple times, then this is called idempotent
 
 ### Method in Browser
 User doesn't see the http method when using browser is that the browser use `GET` when user click link or request any resource by default. The other methods can be triggered by javascript.
@@ -98,6 +107,9 @@ User doesn't see the http method when using browser is that the browser use `GET
 ## Header
 Header contains the extra information of the sender by sender's own.
 It is just a key-value pair so that custom header can be used.
+
+![http-header](./images/http-header-00.jpg)
+![http-header](./images/http-header-01.jpg)
 
 ### Header Examples
 - Client Request
@@ -127,6 +139,9 @@ Last-Modified   |  res       | last modified date of the request target | Tue, 1
 
 ## Body
 Body is an optional message associated with the request or response
+
+![http-body](./images/http-body-00.jpg)
+![http-body](./images/http-body-01.jpg)
 
 ### Body Examples
 - plain
@@ -166,6 +181,9 @@ Body is an optional message associated with the request or response
 
 ## Status
 Status is a simple code representing the status of the request after processing
+
+![http-status](./images/http-status-00.jpg)
+![http-status](./images/http-status-01.jpg)
 
 ### Status Examples
 - 200 ( OK )

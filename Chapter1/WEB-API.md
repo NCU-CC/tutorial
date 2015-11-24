@@ -16,9 +16,9 @@ API ( Application Programming Interface ) is a set of routines, protocols and to
 - API in Unix System
 
           SYNOPSIS
-                      #include <math.h>
-                      double sqrt(double X);
-                      float  sqrtf(float X);
+                    #include <math.h>
+                    double sqrt(double X);
+                    float  sqrtf(float X);
           DESCRIPTION
                  sqrt computes the positive square root of the argument. ...
           RETURNS
@@ -28,19 +28,19 @@ API ( Application Programming Interface ) is a set of routines, protocols and to
 - API in Java programming language
 
           class Scanner
-    
+
           public String nextLine()
-    
+
             Advances this scanner past the current line and returns the skipped input...
-    
+
           Returns:
-    
+
             the line that was skipped
-    
+
           Throws:
-    
+
             NoSuchElementException - if no line found
-    
+
             IllegalStateException - if this scanner is closed        
 
 
@@ -58,7 +58,7 @@ typically in the form of `JSON` or `XML`
     Host: api.bookstore.com
     Accept: application/json
     ```
-      
+
 
 - Response
 
@@ -67,8 +67,8 @@ typically in the form of `JSON` or `XML`
     Content-Type: application/json
     Content-Length: xxx
     ```
-    
-    
+
+
     ```json
     {
         "id" : "1",
@@ -77,7 +77,7 @@ typically in the form of `JSON` or `XML`
         "price" : 20
     }
     ```
-    
+
 
 ## RESTFUL-API
 
@@ -105,16 +105,16 @@ resource : `http://api.bookstore.com/books`
 
 method   |  description | example
 -----    |  -------   | ----------
-GET      | get all books | `GET /books` <br> `200 [ { "id" : 1, "name" : "Old School" } ]`
-POST     | create a new book | `POST /books [ { "name" : "Good Days" } ]` <br> `201 { "id" : 2, "name" : "Good Days" }`
+GET      | **get** all books | `GET /books` <br> `200 [ { "id" : 1, "name" : "Old School" } ]`
+POST     | **create** a new book | `POST /books [ { "name" : "Good Days" } ]` <br> `201 { "id" : 2, "name" : "Good Days" }`
 
 resource : `http://api.bookstore.com/books/1`
 
 method   |  description | example
 -----    |  -------   | ----------
-GET      | get the book with id 1 | `GET /books/1` <br> `200 { "id" : 1, "name" : "Hello World" }`
-PUT      | update the book with id 1 | `PUT /books/1 [ { "name" : "Hello World!!!" } ]` <br> `200 { "id" : 1, "name" : "Hello World!!!" }`
-DELETE   | delete the book with id 1 | `DELETE /books/1` <br> `204`
+GET      | **get** the book with id 1 | `GET /books/1` <br> `200 { "id" : 1, "name" : "Hello World" }`
+PUT      | **update** the book with id 1 | `PUT /books/1 [ { "name" : "Hello World!!!" } ]` <br> `200 { "id" : 1, "name" : "Hello World!!!" }`
+DELETE   | **delete** the book with id 1 | `DELETE /books/1` <br> `204`
 
 ## References
 - https://en.wikipedia.org/wiki/Application_programming_interface

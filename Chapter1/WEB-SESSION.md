@@ -48,7 +48,7 @@ Session is implemented by Cookie in most of all cases
 Server wants to store some client-specific information in server instead of client,
 but HTTP is stateless so that server needs a way to recognize each client.
 To resolve this, server can sent an ID representing each client to client using Cookie.
-Whenever server receive the Cookie, server would know what does the ID meaning for and find corresponding data.
+Whenever server receive the Cookie, server would know what does the ID mean for and find corresponding data.
 
 ### Session in Response
 When a response received, Session would be sent to client by `Set-Cookie` header
@@ -72,7 +72,7 @@ When a request launched, Session would be sent to server by `Cookie` header
 - user authentication
 
 ### Session Disadvantage
-- session may cause high memory consuming if using in-memory session
+- session may cause high memory consuming if use in-memory session
 
 ## References
 - https://en.wikipedia.org/wiki/HTTP_cookie
