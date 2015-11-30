@@ -51,7 +51,7 @@ To resolve this, server can sent an ID representing each client to client using 
 Whenever server receive the Cookie, server would know what does the ID mean for and find corresponding data.
 
 ### Session in Response
-When a response received, Session would be sent to client by `Set-Cookie` header
+When a response received, Session ID would be sent to client by `Set-Cookie` header
 
     HTTP/1.0 200 OK
     Content-type: text/html
@@ -60,7 +60,7 @@ When a response received, Session would be sent to client by `Set-Cookie` header
 **p.s.** this `SESSIONID` text may vary with different server
 
 ### Session in Request
-When a request launched, Session would be sent to server by `Cookie` header
+When a request launched, Session ID would be sent to server by `Cookie` header
 
     GET /spec.html HTTP/1.1
     Host: www.example.org

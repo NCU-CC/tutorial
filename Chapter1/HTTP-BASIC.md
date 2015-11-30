@@ -254,11 +254,13 @@ You can see the following information in **ip** document in **Network** inspecto
       - Content-Type : `application/json`
       - Server : `nginx`
   - Body
+  
     ```json
     {
       "origin": "[ your ip address ]"
     }
     ```
+
 
 ## References
 
