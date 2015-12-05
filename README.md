@@ -15,4 +15,8 @@ This is a series of web service development tutorial
 ### Chapter 2 - Web Service Development
   - [Web Service Development](/Chapter2/WEB-SERVICE-DEVELOPMENT.md)
   - [MVC](/Chapter2/MVC.md)
-  - [Development Tools](/Chapter2/DEVELOPMENT-TOOL.md)
+  - [Environment](/Chapter2/ENVIRONMENT.md)
+  - [Version Control](/Chapter2/VERSION.md)
+  - [Build Management](/Chapter2/BUILD.md)
+  - [Dependency Management](/Chapter2/DEPENDENCY.md)
+  - [Migration Management](/Chapter2/MIGRATION.md)
