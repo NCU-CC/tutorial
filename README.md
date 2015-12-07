@@ -20,3 +20,10 @@ This is a series of web service development tutorial
   - [Build Management](/Chapter2/BUILD.md)
   - [Dependency Management](/Chapter2/DEPENDENCY.md)
   - [Migration Management](/Chapter2/MIGRATION.md)
+
+### Chapter 3 - Web Security
+  - [Web Security](/Chapter3/WEB-SECURITY.md)
+  - [HTTP / HTTPS](/Chapter3/HTTP-HTTPS.md)
+  - [SQL Injection](/Chapter3/SQL-INJECTION.md)
+  - XSS
+  - CSRF
