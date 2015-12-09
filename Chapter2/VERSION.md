@@ -3,9 +3,9 @@
 this section is talking about version control and management in application development
 
 ## Table of Contents
-- [Version-Control](#Version-Control)
-- [Version-Control-Examples](#Version-Control-Examples)
-- [References](#References)
+- [Version-Control](#version-control)
+- [Version-Control-Examples](#version-control-examples)
+- [References](#references)
 
 ## Version-Control
 Version Control System has become the most important technique today.

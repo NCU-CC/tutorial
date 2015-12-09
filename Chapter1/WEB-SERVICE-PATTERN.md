@@ -2,10 +2,10 @@
 this section is talking about architecture patterns of web service
 
 ## Table of Contents
-- [Web-Service-Architecture-Pattern](#Web-Service-Architecture-Pattern)
-- [Monolith](#Monolith)
-- [Microservice](#Microservice)
-- [References](#References)
+- [Web-Service-Architecture-Pattern](#web-service-architecture-pattern)
+- [Monolith](#monolith)
+- [Microservice](#microservice)
+- [References](#references)
 
 ## Web-Service-Architecture-Pattern
 An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context.

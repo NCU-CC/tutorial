@@ -1,9 +1,9 @@
 # HTTP-HTTPS
 
 ## Table of Contents
-- [Problem-of-HTTP](#Problem-of-HTTP)
-- [HTTPS](#HTTPS)
-- [References](#References)
+- [Problem-of-HTTP](#problem-of-http)
+- [HTTPS](#https)
+- [References](#references)
 
 ## Problem-of-HTTP
 

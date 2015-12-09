@@ -3,11 +3,11 @@
 this section is talking about user / client authentication and authorization in web
 
 ## Table of Contents
-- [Authentication](#Authentication)
-- [Web-Authentication](#Web-Authentication)
-- [Authorization](#Authorization)
-- [Web-Authorization](#Web-Authorization)
-- [References](#References)
+- [Authentication](#authentication)
+- [Web-Authentication](#web-authentication)
+- [Authorization](#authorization)
+- [Web-Authorization](#web-authorization)
+- [References](#references)
 
 ## Authentication
 Authentication is a series of procedure to verify the user identity

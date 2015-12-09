@@ -2,12 +2,12 @@
 this section is talking about frontend view of web
 
 ## Table of Contents
-- [View](#View)
-- [HTML](#HTML)
-- [XML](#XML)
-- [JSON](#JSON)
-- [Comparison](#Comparison)
-- [References](#References)
+- [View](#view)
+- [HTML](#html)
+- [XML](#xml)
+- [JSON](#json)
+- [Comparison](#comparison)
+- [References](#references)
 
 ## View
 We can format a resource in many ways. For example, We can use HTML to represent a website. However, HTML is too heavy to transfer simple data ( e.g. user name ). We must find other ways to do so. A solution is using `XML` and `JSON`

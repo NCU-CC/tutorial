@@ -4,11 +4,11 @@ this section is talking about csrf attack and its prevention
 **If you have not been familiar with HTML / HTTP, you can pass this section temporily**
 
 ## Table of Contents
-- [CSRF](#CSRF)
-- [CSRF-Examples](#CSRF-Examples)
-- [CSRF-Prevention](#CSRF-Prevention)
-- [CSRF-XSS](#CSRF-XSS)
-- [References](#References)
+- [CSRF](#csrf)
+- [CSRF-Examples](#csrf-examples)
+- [CSRF-Prevention](#csrf-prevention)
+- [CSRF-XSS](#csrf-xss)
+- [References](#references)
 
 ## CSRF
 CSRF ( Cross-site request forgery ) is a type of malicious exploit of a website whereby **unauthorized commands are transmitted from a user that the website trusts**

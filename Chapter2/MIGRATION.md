@@ -3,10 +3,10 @@
 this section is talking about database data and schema management in application development
 
 ## Table of Contents
-- [Migrations](#Migrations)
-- [Migration-Tools](#Migration-Tools)
-- [Migration-Examples](#Migration-Examples)
-- [References](#References)
+- [Migrations](#migrations)
+- [Migration-Tools](#migration-tools)
+- [Migration-Examples](#migration-examples)
+- [References](#references)
 
 ## Migrations
 Migrations are like version control for your database, allowing a team to easily modify and share the application's database schema.

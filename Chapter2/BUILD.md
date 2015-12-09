@@ -3,11 +3,11 @@
 this section is talking about the tool to **build** an application
 
 ## Table of Contents
-- [Builds](#Builds)
-- [Build-Tools](#Build-Tools)
-- [Build-Task-Examples](#Build-Task-Examples)
-- [Build-Examples](#Build-Examples)
-- [References](#References)
+- [Builds](#builds)
+- [Build-Tools](#build-tools)
+- [Build-Task-Examples](#build-task-examples)
+- [Build-Examples](#build-examples)
+- [References](#references)
 
 ## Builds
 The procedure of building an application varies from team to team.

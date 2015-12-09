@@ -3,9 +3,9 @@
 this section is talking about state persistent in web
 
 ## Table of Contents
-- [Cookie](#Cookie)
-- [Session](#Session)
-- [References](#References)
+- [Cookie](#cookie)
+- [Session](#session)
+- [References](#references)
 
 ## Cookie
 Cookie is a string stored in user agent ( browser ) to maintain the state between client / server

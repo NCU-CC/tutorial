@@ -3,14 +3,14 @@
 this section is talking about structure of http application
 
 ## Table of Contents
-- [HTTP](#HTTP)
-- [URL](#URL)
-- [Method](#Method)
-- [Header](#Header)
-- [Body](#Body)
-- [Status](#Status)
-- [Examples](#Examples)
-- [References](#References)
+- [HTTP](#http)
+- [URL](#url)
+- [Method](#method)
+- [Header](#header)
+- [Body](#body)
+- [Status](#status)
+- [Examples](#examples)
+- [References](#references)
 
 ## HTTP
 

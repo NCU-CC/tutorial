@@ -4,10 +4,10 @@ this section is talking about sql injection fundamental
 **If you have not been familiar with SQL, you can pass this section temporily**
 
 ## Table of Contents
-- [SQL-Injection](#SQL-Injection)
-- [SQL-Injection-Examples](#SQL-Injection-Examples)
-- [SQL-Injection-Prevention](#SQL-Injection-Prevention)
-- [References](#References)
+- [SQL-Injection](#sql-injection)
+- [SQL-Injection-Examples](#sql-injection-examples)
+- [SQL-Injection-Prevention](#sql-injection-prevention)
+- [References](#references)
 
 ## SQL-Injection
 SQL injection is a **code injection** technique, used to attack data-driven applications, in which `malicious SQL statements are inserted into an entry field for execution`

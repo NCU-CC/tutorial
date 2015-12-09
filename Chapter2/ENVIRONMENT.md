@@ -3,11 +3,11 @@
 this section is talking about different environment setting in application development
 
 ## Table of Contents
-- [Environments](#Environments)
-- [Development-Environment](#Development-Environment)
-- [Test-Environment](#Test-Environment)
-- [Production-Environment](#Production-Environment)
-- [Examples](#Examples)
+- [Environments](#environments)
+- [Development-Environment](#development-environment)
+- [Test-Environment](#test-environment)
+- [Production-Environment](#production-environment)
+- [Examples](#examples)
 
 ## Environments
 In the progress of application development, we can simply split the environment into three parts:

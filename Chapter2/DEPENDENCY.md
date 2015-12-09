@@ -3,10 +3,10 @@
 this section is talking about how to manage the dependencies of an application
 
 ## Table of Contents
-- [Dependency-Management](#Dependency-Management)
-- [Dependency-Management-Tools](#Dependency-Management-Tools)
-- [Dependency-Management-Examples](#Dependency-Management-Examples)
-- [References](#References)
+- [Dependency-Management](#dependency-management)
+- [Dependency-Management-Tools](#dependency-management-tools)
+- [Dependency-Management-Examples](#dependency-management-examples)
+- [References](#references)
 
 ## Dependency-Management
 If we download and move each lib into out project folder, we may also waste too much time in such nonproductive tasks.

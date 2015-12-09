@@ -2,11 +2,11 @@
 this section is talking about how a web application runs
 
 ## Table of Contents
-- [Web-Server](#Web-Server)
-- [Tomcat](#Tomcat)
-- [Apache](#Apache)
-- [Nginx](#Nginx)
-- [References](#References)
+- [Web-Server](#web-server)
+- [Tomcat](#tomcat)
+- [Apache](#apache)
+- [Nginx](#nginx)
+- [References](#references)
 
 ## Web-Server
 A web server is an application which processes requests via HTTP.

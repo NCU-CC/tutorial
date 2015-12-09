@@ -3,12 +3,12 @@
 this section is talking about Model, View, Controller architecture
 
 ## Table of Contents
-- [MVC](#HTTP)
-- [Model](#Model)
-- [View](#View)
-- [Controller](#Controller)
-- [Examples](#Examples)
-- [References](#References)
+- [MVC](#http)
+- [Model](#model)
+- [View](#view)
+- [Controller](#controller)
+- [Examples](#examples)
+- [References](#references)
 
 ## MVC
 MVC ( Model View Controller ) is a kind of software architecture.

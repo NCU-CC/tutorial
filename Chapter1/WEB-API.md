@@ -3,10 +3,10 @@
 this section is talking about APIs
 
 ## Table of Contents
-- [API](#API)
-- [WEB-API](#WEB-API)
-- [RESTFUL-API](#RESTFUL-API)
-- [References](#References)
+- [API](#api)
+- [WEB-API](#web-api)
+- [RESTFUL-API](#restful-api)
+- [References](#references)
 
 ## API
 API ( Application Programming Interface ) is a set of routines, protocols and tools for building software applications

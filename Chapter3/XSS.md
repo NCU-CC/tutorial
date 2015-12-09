@@ -4,10 +4,10 @@ this section is talking about xss attack and its prevention
 **If you have not been familiar with HTML / Javascript, you can pass this section temporily**
 
 ## Table of Contents
-- [XSS](#XSS)
-- [XSS-Examples](#XSS-Examples)
-- [XSS-Prevention](#XSS-Prevention)
-- [References](#References)
+- [XSS](#xss)
+- [XSS-Examples](#xss-examples)
+- [XSS-Prevention](#xss-prevention)
+- [References](#references)
 
 ## XSS
 XSS ( Cross-site scripting ) enables attackers to **inject client-side script into web pages** viewed by other users
