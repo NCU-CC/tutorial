@@ -57,3 +57,4 @@ SQL injection is a **code injection** technique, used to attack data-driven appl
 
 ## References
 - https://en.wikipedia.org/wiki/SQL_injection
+- https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/09.4.md

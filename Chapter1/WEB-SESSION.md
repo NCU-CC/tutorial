@@ -77,3 +77,4 @@ When a request launched, Session ID would be sent to server by `Cookie` header
 ## References
 - https://en.wikipedia.org/wiki/HTTP_cookie
 - https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+- https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/06.1.md

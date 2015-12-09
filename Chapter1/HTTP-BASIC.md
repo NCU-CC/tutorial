@@ -254,7 +254,7 @@ You can see the following information in **ip** document in **Network** inspecto
       - Content-Type : `application/json`
       - Server : `nginx`
   - Body
-  
+
     ```json
     {
       "origin": "[ your ip address ]"
@@ -269,3 +269,4 @@ You can see the following information in **ip** document in **Network** inspecto
 - https://en.wikipedia.org/wiki/Domain_Name_System
 - https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+- https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/03.1.md

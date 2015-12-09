@@ -120,4 +120,5 @@ DELETE   | **delete** the book with id 1 | `DELETE /books/1` <br> `204`
 - https://en.wikipedia.org/wiki/Application_programming_interface
 - https://en.wikipedia.org/wiki/Web_API
 - https://en.wikipedia.org/wiki/Representational_state_transfer
+- https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/08.3.md
 - http://bbear.me/qian-hou-duan-fen-chi-tr/
