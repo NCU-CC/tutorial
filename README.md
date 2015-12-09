@@ -25,5 +25,5 @@ This is a series of web service development tutorial
   - [Web Security](/Chapter3/WEB-SECURITY.md)
   - [HTTP / HTTPS](/Chapter3/HTTP-HTTPS.md)
   - [SQL Injection](/Chapter3/SQL-INJECTION.md)
-  - XSS
-  - CSRF
+  - [XSS](/Chapter3/XSS.md)
+  - [CSRF](/Chapter3/CSRF.md)
