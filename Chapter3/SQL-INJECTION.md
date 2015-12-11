@@ -20,18 +20,24 @@ SQL injection is a **code injection** technique, used to attack data-driven appl
     where `userName` and `passWord` are strings from user input
 
   - If an attacker type following contents the in the form
+  
     ```sql
     userName = "1' OR '1'='1";
     passWord = "1' OR '1'='1";
     ```
   - The operation above would lead to
+  
     ```sql
     strSQL = "SELECT * FROM users WHERE (name = '1' OR '1'='1') and (pw = '1' OR '1'='1');"
     ```
+    
     which equals to
+    
     ```sql
     strSQL = "SELECT * FROM users;"
     ```
+    
+    
   - The attacker can now pass the user authentication
 
 
